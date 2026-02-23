@@ -14,5 +14,7 @@ PowerShell should already be installed on your Windows system.
 ## 🧪 Labs
 
 [Lab 12.2: Learn PowerShell Basics](12.2-Learn-PowerShell/README.md)
+
 [Lab 12.4: Explore Teams PowerShell Cmdlets](12.4-Explore-Teams-PowerShell-Cmdlets/README.md)
+
 [Lab 12.6: Explore the Microsoft Graph API](12.6-Explore-the-Microsoft-Graph-API/README.md)
