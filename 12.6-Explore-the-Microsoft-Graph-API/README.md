@@ -70,11 +70,11 @@ Let's practice swapping out that Team ID to get information about a different gr
 > 💡 **How does it know which team to query?**
 > Look at the URL in the address bar. After `/teams/`, there is a specific **team id**. We can replace this ID to target completely different teams!
 
-## 📜 Wrap-Up: Documentation
+## 📜 Documentation
 
 To review the documentation for each endpoint, click on the 📂 icon to the right side of the endpoint
 *Those with a little 🔓 icon are the ones that require authentication, mostly those that go beyond just reading data from the graph.*
 
-## 📥 Wrap-Up: Documentation
+## 📥 History
 
 And lastly, just like in the powershell lab, if we click on ‘history’ we will be able to review the previous commands that were executed.
