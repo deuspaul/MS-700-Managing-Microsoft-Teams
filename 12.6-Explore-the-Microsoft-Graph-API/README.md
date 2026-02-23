@@ -48,18 +48,7 @@ Let's try a `GET` request to see what teams our sample user belongs to.
 
 1. Click on **"my joined teams"** in the left menu.
 2. Click the **Run query** button.
-*At the bottom of the screen, the response will list the teams that Megan is a member of.*
-
-### 3. List Members of a Team
-
-Now let's see who is inside a specific team.
-
-1. Click on **"members of a team"**.
-2. Click **Run query**.
-*The results at the bottom will list the members of that default team.*
-
-> 💡 **How does it know which team to query?**
-> Look at the URL in the address bar. After `/groups/`, there is a specific **Team ID**. We can replace this ID to target completely different teams!
+*At the bottom of the screen, the response will list the teams that your account is a member of.*
 
 ## 🔄 Modifying Queries with IDs
 
@@ -68,22 +57,24 @@ Let's practice swapping out that Team ID to get information about a different gr
 ### **Step 1: Get a new Team ID**
 
 1. Run the **"my joined teams"** query one more time.
-2. Look through the results at the bottom and copy the ID for the **"Business Development"** group:
-`13be6971-79db-4f33-9d41-b25589ca25af`
+2. Look through the results at the bottom and copy the id for the **"Sales and Marketing"** group:
+`52987f91-5a61-4c25-8a22-c55ce1b446d6`
 
 ### **Step 2: Check the new team's members**
 
-1. Click on **"members of a team"** in the left menu again.
-2. Replace the default Team ID in the URL with the one you just copied.
+1. Click on **"channels of a team which I am a member of"** in the left menu.
+2. Replace the default team-id in the URL with the one you just copied.
 3. Click **Run query**.
-*You will now see the members specific to the Business Development team!*
+*You will now see the channels in the Sales and Marketing team!*
 
-### **Step 3: Get Group Properties**
+> 💡 **How does it know which team to query?**
+> Look at the URL in the address bar. After `/teams/`, there is a specific **team id**. We can replace this ID to target completely different teams!
 
-1. In the left menu, locate the **"groups"** sample queries.
-2. Click on **"get properties and relationships of group"**.
-3. If you run it as-is, it will reply with details about the "HR taskforce" team.
-4. Replace the ID in the URL with our copied ID: `13be6971-79db-4f33-9d41-b25589ca25af`
-5. Run the query again to see the properties of the Business Development team.
+## 📜 Wrap-Up: Documentation
 
-*These were just a few examples. In the official documentation, there are hundreds of API endpoints that you can query with the Graph API!*
+To review the documentation for each endpoint, click on the 📂 icon to the right side of the endpoint
+*Those with a little 🔓 icon are the ones that require authentication, mostly those that go beyond just reading data from the graph.*
+
+## 📥 Wrap-Up: Documentation
+
+And lastly, just like in the powershell lab, if we click on ‘history’ we will be able to review the previous commands that were executed.
